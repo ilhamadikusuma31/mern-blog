@@ -1,15 +1,21 @@
 import React from 'react';
-import './register.scss';
+// import './register.scss';
+// import 'bootstrap';
 
 const Register = () => {
   return (
     <div className='main-page'>
-      <div className='kiri'>
+    <div className='container'>
+      <div className='row'>
+      <div className='col-md-6'>
         ilustrasi
       </div>
-      <div className='kanan'>
+      <div className='col-md-6'>
         <p>ini halaman register</p>
       </div>
+      </div>
+    </div>
+      
     </div>
   )
 }
