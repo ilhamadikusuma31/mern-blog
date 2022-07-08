@@ -7,10 +7,10 @@ const Register = () => {
   return (
     <div className='container'>
       <div className='row justify-content-center'>
-      <div className='col-md-8'>
+      <div className='col-md-9'>
         <img src={registerBG} className="h-100 w-100 img-fluid" alt='bg'/>
       </div>
-      <div className='col-md-4 my-auto'>
+      <div className='col-md-3 my-auto'>
         <p className='display-4'>Register</p>
         <div>
           <Input label_nya='nama lengkap' type='text'/>

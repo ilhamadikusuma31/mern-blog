@@ -7,7 +7,7 @@ const Routes = () => {
     <Router>
       <Switch>
 
-        <Route path="/login">
+        <Route path="/masuk">
           <Login/>
         </Route>
 
